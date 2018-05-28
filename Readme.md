@@ -55,7 +55,14 @@ Both of them are used in this repository.
 
 # Workshop instructions 
 
-###  Install the requirements
+
+### Familiarize yourself with the topology:
+
+Here's the [topology file](Connection%20Diagram.pdf)  
+Ask to the instructor for the devices username and password.  
+Run some tests (from the Ubuntu VM, ping and ssh the Junos devices)  
+
+###  Install the Ansible requirements on the Ubuntu VM
 
 Ask to the instructor if this is not already done.  
 if this was not already done previously by the instructor, ssh to the provided Ubuntu 16.04 and run these commands to install yourself the Ansible server and it's requirements
@@ -75,12 +82,6 @@ ansible --version
 ansible-galaxy list Juniper.junos
 ls /etc/ansible/roles/
 ```
-
-### Familiarize yourself with the topology:
-
-Here's the [topology file](Connection%20Diagram.pdf)  
-Ask to the instructor for the devices username and password.  
-Run some tests (from the Ansible server, ping and ssh the Junos devices)
 
 ### From the Ansible server, clone the repository: 
 ```
