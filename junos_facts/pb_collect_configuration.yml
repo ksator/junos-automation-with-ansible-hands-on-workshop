@@ -61,16 +61,3 @@
     copy:
       content: "{{ result_json.ansible_facts.ansible_net_config }}"
       dest: "{{ playbook_dir }}/configuration/json/{{ inventory_hostname }}.json"
-
-  - name: Collect configuration in xml format from devices
-    junos_facts:
-      gather_subset: config
-      config_format: xml
-      provider: "{{ credentials }}"
-    register: "result_xml"
-
-  - name: copy collected configuration in configuration/xml directory
-    copy:
-      content: "{{ result_xml.ansible_facts.ansible_net_config }}"
-      dest: "{{ playbook_dir }}/configuration/xml/{{ inventory_hostname }}.xml"
-
