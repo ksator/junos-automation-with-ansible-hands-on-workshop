@@ -304,16 +304,17 @@ Audit the physical topology of your network:
 ```
 ansible-playbook junos_command/pb_check_op_states.yml
 ```
-The task ```check if interfaces op status is up``` is failing because the ```wait_for``` argument is not parsing the junos output correcltly.  
-ssh to the device and run "show interfaces | display xml" to understand how to fix this parsing error
+The task ```check if interfaces op status is up``` is failing because the ```waitfor``` argument is not parsing the junos output correcltly.  
+
+ssh to the device and run "show xxx | display xml" to understand how to fix this parsing error. Example:  
 ```
-ksator@mx480-21> show interfaces | display xml
+ksator@mx480-21> show interfaces terse xe-1/0/0 | display xml
 ```
-and then fix the palybook 
+and then fix the playbook 
 ```
 vi junos_command/pb_check_op_states.yml
 ```
-and rerun it to audit the physical topology of your network:  
+and re-run it to audit the physical topology of your network:  
 ```
 ansible-playbook junos_command/pb_check_op_states.yml
 ```
