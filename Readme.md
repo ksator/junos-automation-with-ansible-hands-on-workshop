@@ -58,7 +58,7 @@ Both of them are used in this repository.
 ###  Install the requirements
 
 Ask to the instructor if this is not already done.  
-if and only if this is not already done previously by the instructor, ssh to the provided Ubuntu 16.04 and run these commands to install yourself the Ansible server and it's requirements
+if this was not already done previously by the instructor, ssh to the provided Ubuntu 16.04 and run these commands to install yourself the Ansible server and it's requirements
 ```
 sudo -s
 apt-get update
