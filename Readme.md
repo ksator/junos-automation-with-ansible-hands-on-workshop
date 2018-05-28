@@ -84,8 +84,8 @@ Run some tests (from the Ansible server, ping and ssh the Junos devices)
 
 ### From the Ansible server, clone the repository: 
 ```
-git clone https://github.com/ksator/hands-on-ansible-workshop.git
-cd hands-on-ansible-workshop
+git clone https://github.com/ksator/junos-automation-with-ansible-hands-on-workshop.git
+cd junos-automation-with-ansible-hands-on-workshop
 ls -l
 pwd
 ```
