@@ -1,0 +1,67 @@
+
+Interface               Admin Link Proto    Local                 Remote
+lc-1/0/0                up    up
+lc-1/0/0.32769          up    up   vpls    
+pfe-1/0/0               up    up
+pfe-1/0/0.16383         up    up   inet    
+                                   inet6   
+pfh-1/0/0               up    up
+pfh-1/0/0.16383         up    up   inet    
+pfh-1/0/0.16384         up    up   inet    
+xe-1/0/0                up    up
+xe-1/0/0.0              up    up   inet     10.0.0.2/16     
+                                   mpls    
+                                   multiservice
+xe-1/0/1                up    up
+xe-1/1/0                up    up
+xe-1/1/1                up    down
+lc-1/2/0                up    up
+lc-1/2/0.32769          up    up   vpls    
+pfe-1/2/0               up    up
+pfe-1/2/0.16383         up    up   inet    
+                                   inet6   
+xe-1/2/0                up    up
+xe-1/2/1                up    up
+xe-1/3/0                up    up
+xe-1/3/1                up    up
+cbp0                    up    up
+demux0                  up    up
+dsc                     up    up
+em0                     up    up
+em0.0                   up    up   inet     10.0.0.4/8      
+                                            128.0.0.1/2     
+                                            128.0.0.4/2     
+                                   inet6    fe80::200:ff:fe00:4/64
+                                            fec0::a:0:0:4/64
+                                   tnp      0x4             
+em1                     up    up
+em1.0                   up    up   inet     10.0.0.4/8      
+                                            128.0.0.1/2     
+                                            128.0.0.4/2     
+                                   inet6    fe80::200:1ff:fe00:4/64
+                                            fec0::a:0:0:4/64
+                                   tnp      0x4             
+esi                     up    up
+fxp0                    up    up
+fxp0.0                  up    up   inet     172.30.177.137/24
+                                            172.30.177.138/24
+gre                     up    up
+ipip                    up    up
+irb                     up    up
+jsrv                    up    up
+jsrv.1                  up    up   inet     128.0.0.127/2   
+lo0                     up    up
+lo0.0                   up    up   inet     127.0.0.1           --> 0/0
+                                            192.177.0.137       --> 0/0
+                                   iso      49.0177.0000.0000.0137
+lo0.16384               up    up   inet     127.0.0.1           --> 0/0
+lo0.16385               up    up   inet    
+lsi                     up    up
+mtun                    up    up
+pimd                    up    up
+pime                    up    up
+pip0                    up    up
+pp0                     up    up
+rbeb                    up    up
+tap                     up    up
+vtep                    up    up

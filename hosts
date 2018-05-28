@@ -1,0 +1,45 @@
+[lab]
+# all junos devices
+MX480-3
+#MX480-1
+#MX480-5
+#MX480-22
+MX480-21
+#MX240-10
+#MX240-9
+QFX5100-18
+#QFX5100-50
+#QFX5100-32
+#QFX5100-31
+#EX4300-11
+#EX4300-15
+#EX4300-16
+
+[lab_MX]
+# all MX
+MX480-3
+MX480-1
+#MX480-5
+#MX480-22
+#MX480-21
+#MX240-10
+#MX240-9
+
+[lab_QFX]
+# all QFX
+QFX5100-18
+#QFX5100-50
+#QFX5100-32
+#QFX5100-31
+
+[lab_EX]
+# All EX
+#EX4300-11
+#EX4300-15
+#EX4300-16
+
+[your_device]
+#ask to the instructor which one is your device
+#MX480-3
+QFX5100-18
+

@@ -1,0 +1,32 @@
+
+Hardware inventory:
+Item             Version  Part number  Serial number     Description
+Chassis                                JN122ED01AFB      MX480
+Midplane         REV 04   750-047862   ACRA8131          Enhanced MX480 Midplane
+FPM Board        REV 02   710-017254   WX1975            Front Panel Display
+PEM 0            Rev 05   740-029970   QCS1024U016       PS 1.4-2.52kW; 90-264V AC in
+PEM 1            Rev 05   740-029970   QCS1023U0A8       PS 1.4-2.52kW; 90-264V AC in
+PEM 2            Rev 05   740-029970   QCS1024U05X       PS 1.4-2.52kW; 90-264V AC in
+PEM 3            Rev 05   740-029970   QCS1024U09D       PS 1.4-2.52kW; 90-264V AC in
+Routing Engine 0 REV 01   740-051822   9013077437        RE-S-1800x4
+Routing Engine 1 REV 05   740-031116   9009090053        RE-S-1800x4
+CB 0             REV 01   750-055976   CACM2276          Enhanced MX SCB 2
+CB 1             REV 07   750-062572   CAHM4954          Enhanced MX SCB 2
+FPC 1            REV 18   750-044444   CAGA3017          MPCE Type 2 3D P
+  CPU            REV 07   711-038484   CAFR6425          MPCE PMB 2G 
+  MIC 0          REV 31   750-028387   CADA7393          3D 4x 10GE  XFP
+    PIC 0                 BUILTIN      BUILTIN           2x 10GE  XFP
+      Xcvr 0     REV 02   740-014289   T09H13286         XFP-10G-SR
+      Xcvr 1              NON-JNPR     T15L83285         XFP-10G-SR
+    PIC 1                 BUILTIN      BUILTIN           2x 10GE  XFP
+      Xcvr 0     REV 03   740-014289   CC44BQ10S         XFP-10G-SR
+  MIC 1          REV 27   750-028387   ZJ2555            3D 4x 10GE  XFP
+    PIC 2                 BUILTIN      BUILTIN           2x 10GE  XFP
+      Xcvr 0              NON-JNPR     T15F10396         XFP-10G-SR
+      Xcvr 1              NON-JNPR     C948BK009         XFP-10G-SR
+    PIC 3                 BUILTIN      BUILTIN           2x 10GE  XFP
+      Xcvr 0              NON-JNPR     T15F10359         XFP-10G-SR
+      Xcvr 1              NON-JNPR     CC29BK00N         XFP-10G-SR
+  QXM 0          REV 08   711-028408   CAGA3419          MPC QXM
+  QXM 1          REV 08   711-028408   CAFZ2206          MPC QXM
+Fan Tray                                                 Enhanced Left Fan Tray

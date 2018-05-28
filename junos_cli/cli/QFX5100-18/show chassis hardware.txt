@@ -1,0 +1,18 @@
+
+Hardware inventory:
+Item             Version  Part number  Serial number     Description
+Chassis                                VB3714190083      QFX5100-96S-8Q
+Pseudo CB 0     
+Routing Engine 0          BUILTIN      BUILTIN           QFX Routing Engine
+FPC 0            REV 09   650-053391   VB3714190083      QFX5100-96S-8Q
+  CPU                     BUILTIN      BUILTIN           FPC CPU
+  PIC 0                   BUILTIN      BUILTIN           96x10G-8x40G
+    Xcvr 0       REV 01   740-031980   AHA0DAH           SFP+-10G-SR
+    Xcvr 1       REV 01   740-030658   ATM0VT8           SFP+-10G-USR
+    Xcvr 2       REV 01   740-021308   9Y3152A00169      SFP+-10G-SR
+    Xcvr 3       REV 01   740-030658   B11G02379         SFP+-10G-USR
+Power Supply 0   REV 01   740-053352   1GD14040114       JPSU-850W-AC-AFO
+Power Supply 1   REV 01   740-053352   1GD14040200       JPSU-850W-AC-AFO
+Fan Tray 0                                               QFX5100 Fan Tray 0, Front to Back Airflow - AFO
+Fan Tray 1                                               QFX5100 Fan Tray 1, Front to Back Airflow - AFO
+Fan Tray 2                                               QFX5100 Fan Tray 2, Front to Back Airflow - AFO

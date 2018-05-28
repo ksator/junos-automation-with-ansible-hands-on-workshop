@@ -1,0 +1,96 @@
+
+Interface               Admin Link Proto    Local                 Remote
+lc-1/0/0                up    up
+lc-1/0/0.32769          up    up   vpls    
+pfe-1/0/0               up    up
+pfe-1/0/0.16383         up    up   inet    
+                                   inet6   
+pfh-1/0/0               up    up
+pfh-1/0/0.16383         up    up   inet    
+pfh-1/0/0.16384         up    up   inet    
+xe-1/0/0                up    up
+xe-1/0/0.0              up    up   inet     10.5.0.1/16     
+                                   mpls    
+                                   multiservice
+xe-1/0/1                up    up
+xe-1/0/1.32769          up    up   inet     10.0.128.5/30   
+xe-1/0/1.32770          up    up   bridge  
+xe-1/1/0                up    up
+xe-1/1/1                up    up
+lc-1/2/0                up    up
+lc-1/2/0.32769          up    up   vpls    
+pfe-1/2/0               up    up
+pfe-1/2/0.16383         up    up   inet    
+                                   inet6   
+cbp0                    up    up
+demux0                  up    up
+dsc                     up    up
+em0                     up    up
+em0.0                   up    up   inet     10.0.0.4/8      
+                                            128.0.0.1/2     
+                                            128.0.0.4/2     
+                                   inet6    fe80::200:ff:fe00:4/64
+                                            fec0::a:0:0:4/64
+                                   tnp      0x4             
+em1                     up    up
+em1.0                   up    up   inet     10.0.0.4/8      
+                                            128.0.0.1/2     
+                                            128.0.0.4/2     
+                                   inet6    fe80::200:1ff:fe00:4/64
+                                            fec0::a:0:0:4/64
+                                   tnp      0x4             
+esi                     up    up
+fxp0                    up    up
+fxp0.0                  up    up   inet     172.30.177.136/24
+                                            172.30.178.65/24
+gre                     up    up
+ipip                    up    up
+irb                     up    up
+jsrv                    up    up
+jsrv.1                  up    up   inet     128.0.0.127/2   
+lo0                     up    up
+lo0.0                   up    up   inet     127.0.0.1           --> 0/0
+                                            192.177.0.136       --> 0/0
+                                   iso      49.0177.0000.0000.0136
+lo0.16384               up    up   inet     127.0.0.1           --> 0/0
+lo0.16385               up    up   inet    
+lo0.32769               up    up   inet     172.16.255.1        --> 0/0
+lsi                     up    up
+mtun                    up    up
+pimd                    up    up
+pime                    up    up
+pip0                    up    up
+pp0                     up    up
+rbeb                    up    up
+tap                     up    up
+vtep                    up    up
+ge-100/0/0              up    down
+sd-100/0/0              up    up
+sd-100/0/0.32770        up    up   bridge  
+ge-100/0/1              up    down
+ge-100/0/2              up    down
+ge-100/0/3              up    down
+ge-100/0/4              up    down
+ge-100/0/5              up    down
+ge-100/0/6              up    down
+ge-100/0/7              up    down
+ge-100/0/8              up    down
+ge-100/0/9              up    down
+ge-100/0/10             up    down
+ge-100/0/11             up    down
+ge-100/0/12             up    down
+ge-100/0/13             up    down
+ge-100/0/14             up    down
+ge-100/0/15             up    down
+ge-100/0/16             up    down
+ge-100/0/17             up    down
+ge-100/0/18             up    down
+ge-100/0/19             up    down
+ge-100/0/20             up    down
+ge-100/0/21             up    down
+ge-100/0/22             up    down
+ge-100/0/23             up    down
+xe-100/2/0              up    up
+xe-100/2/1              up    up
+xe-100/2/2              up    up
+xe-100/2/3              up    up

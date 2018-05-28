@@ -1,0 +1,85 @@
+
+Peer: 192.177.0.101+179 AS 65100 Local: 192.177.0.137+57171 AS 65100
+  Group: internal              Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: Hold Timer Expired Error
+  Options: <Preference LocalAddress LogUpDown Refresh>
+  Options: <MtuDiscovery>
+  Local Address: 192.177.0.137 Holdtime: 90 Preference: 170
+  Number of flaps: 1
+  Last flap event: HoldTime
+  Error: 'Hold Timer Expired Error' Sent: 1 Recv: 0
+  Peer ID: 192.177.0.101   Local ID: 192.177.0.137     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 0    Peer index: 1    SNMP index: 1     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: disabled, down
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65100)
+  Peer does not support Addpath
+  Table inet.0 Bit: 20000
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              0
+    Received prefixes:            0
+    Accepted prefixes:            0
+    Suppressed due to damping:    0
+    Advertised prefixes:          0
+  Last traffic (seconds): Received 2334384 Sent 12395 Checked 2334384
+  Input messages:  Total 456	Updates 1	Refreshes 0	Octets 8668
+  Output messages: Total 458	Updates 0	Refreshes 0	Octets 8706
+  Output Queue[1]: 0            (inet.0, inet-unicast)
+
+Peer: 192.177.0.136+56577 AS 65100 Local: 192.177.0.137+179 AS 65100
+  Group: internal              Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: Hold Timer Expired Error
+  Options: <Preference LocalAddress LogUpDown Refresh>
+  Options: <MtuDiscovery>
+  Local Address: 192.177.0.137 Holdtime: 90 Preference: 170
+  Number of flaps: 2
+  Last flap event: HoldTime
+  Error: 'Hold Timer Expired Error' Sent: 1 Recv: 0
+  Error: 'Cease' Sent: 0 Recv: 1
+  Peer ID: 192.177.0.136   Local ID: 192.177.0.137     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 0    Peer index: 0    SNMP index: 0     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: disabled, down
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65100)
+  Peer does not support Addpath
+  Table inet.0 Bit: 20000
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              0
+    Received prefixes:            0
+    Accepted prefixes:            0
+    Suppressed due to damping:    0
+    Advertised prefixes:          0
+  Last traffic (seconds): Received 2334384 Sent 12404 Checked 2334384
+  Input messages:  Total 457	Updates 1	Refreshes 0	Octets 8731
+  Output messages: Total 458	Updates 0	Refreshes 0	Octets 8706
+  Output Queue[1]: 0            (inet.0, inet-unicast)

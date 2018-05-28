@@ -1,0 +1,21 @@
+
+fpc0:
+--------------------------------------------------------------------------
+Hostname: qfx5100-18
+Model: qfx5100-96s-8q
+Junos: 17.4R1.16
+JUNOS Base OS boot [17.4R1.16]
+JUNOS Base OS Software Suite [17.4R1.16]
+JUNOS Crypto Software Suite [17.4R1.16]
+JUNOS Crypto Software Suite [17.4R1.16]
+JUNOS Online Documentation [17.4R1.16]
+JUNOS Kernel Software Suite [17.4R1.16]
+JUNOS Packet Forwarding Engine Support (qfx-ex-x86-32) [17.4R1.16]
+JUNOS Routing Software Suite [17.4R1.16]
+JUNOS jsd [i386-17.4R1.16-jet-1]
+JUNOS SDN Software Suite [17.4R1.16]
+JUNOS Enterprise Software Suite [17.4R1.16]
+JUNOS Web Management Platform Package [17.4R1.16]
+JUNOS py-base-i386 [17.4R1.16]
+JUNOS py-extensions-i386 [17.4R1.16]
+JUNOS Host Software [17.3R1.10]

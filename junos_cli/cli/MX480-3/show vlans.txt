@@ -1,0 +1,1 @@
+invalid command: show vlans: RpcError(severity: error, bad_element: vlans, message: syntax error, expecting <command>)

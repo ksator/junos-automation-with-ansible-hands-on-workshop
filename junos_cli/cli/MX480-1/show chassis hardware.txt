@@ -1,0 +1,26 @@
+
+Hardware inventory:
+Item             Version  Part number  Serial number     Description
+Chassis                                JN1233E76AFB      MX480
+Midplane         REV 04   750-047862   ACRC5342          Enhanced MX480 Midplane
+FPM Board        REV 02   710-017254   KD4581            Front Panel Display
+PEM 0            Rev 05   740-029970   QCS1024U09B       PS 1.4-2.52kW; 90-264V AC in
+PEM 1            Rev 05   740-029970   QCS1023U08T       PS 1.4-2.52kW; 90-264V AC in
+PEM 2            Rev 05   740-029970   QCS1024U04L       PS 1.4-2.52kW; 90-264V AC in
+PEM 3            Rev 05   740-029970   QCS1022U01F       PS 1.4-2.52kW; 90-264V AC in
+Routing Engine 0 REV 01   740-051822   9013056394        RE-S-1800x4
+Routing Engine 1 REV 01   740-051822   9009170153        RE-S-1800x4
+CB 0             REV 14   750-031391   ZY5655            Enhanced MX SCB
+CB 1             REV 14   750-031391   ZK9445            Enhanced MX SCB
+FPC 1            REV 09   750-038492   CAAK1560          MPCE Type 2 3D EQ
+  CPU            REV 04   711-038484   CAAK7787          MPCE PMB 2G 
+  MIC 0          REV 31   750-028387   CADA7453          3D 4x 10GE  XFP
+    PIC 0                 BUILTIN      BUILTIN           2x 10GE  XFP
+      Xcvr 0              NON-JNPR     C948BK0AY         XFP-10G-SR
+      Xcvr 1              NON-JNPR     T15L83392         XFP-10G-SR
+    PIC 1                 BUILTIN      BUILTIN           2x 10GE  XFP
+      Xcvr 0              NON-JNPR     T15F10415         XFP-10G-SR
+      Xcvr 1     REV 01   740-011571   C651XJ034         XFP-10G-SR
+  QXM 0          REV 06   711-028408   CAAK7241          MPC QXM
+  QXM 1          REV 06   711-028408   CAAK7247          MPC QXM
+Fan Tray                                                 Enhanced Left Fan Tray

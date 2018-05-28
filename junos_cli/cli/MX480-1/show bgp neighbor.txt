@@ -1,0 +1,184 @@
+
+Peer: 192.177.0.101+179 AS 65100 Local: 192.177.0.136+64274 AS 65100
+  Group: internal-rr           Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Options: <Preference LocalAddress LogUpDown Refresh>
+  Options: <MtuDiscovery>
+  Local Address: 192.177.0.136 Holdtime: 90 Preference: 170
+  Number of flaps: 0
+  Peer ID: 192.177.0.101   Local ID: 192.177.0.136     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 0    Peer index: 0    SNMP index: 0     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: disabled, down
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65100)
+  Peer does not support Addpath
+  Table inet.0 Bit: 20001
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              0
+    Received prefixes:            0
+    Accepted prefixes:            0
+    Suppressed due to damping:    0
+    Advertised prefixes:          0
+  Last traffic (seconds): Received 72223 Sent 71942 Checked 72223
+  Input messages:  Total 2639	Updates 1	Refreshes 0	Octets 50145
+  Output messages: Total 2639	Updates 0	Refreshes 0	Octets 50145
+  Output Queue[1]: 0            (inet.0, inet-unicast)
+
+Peer: 192.177.0.105+179 AS 65100 Local: 192.177.0.136+54915 AS 65100
+  Group: internal              Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Established  (route reflector client)Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Options: <Preference LocalAddress LogUpDown Cluster Refresh>
+  Options: <MtuDiscovery>
+  Local Address: 192.177.0.136 Holdtime: 90 Preference: 170
+  Number of flaps: 0
+  Peer ID: 192.177.0.105   Local ID: 192.177.0.136     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 1    Peer index: 1    SNMP index: 1     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: disabled, down
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65100)
+  Peer does not support Addpath
+  Table inet.0 Bit: 20000
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              0
+    Received prefixes:            0
+    Accepted prefixes:            0
+    Suppressed due to damping:    0
+    Advertised prefixes:          0
+  Last traffic (seconds): Received 72223 Sent 71938 Checked 72223
+  Input messages:  Total 2660	Updates 1	Refreshes 0	Octets 50544
+  Output messages: Total 2639	Updates 0	Refreshes 0	Octets 50145
+  Output Queue[1]: 0            (inet.0, inet-unicast)
+
+Peer: 192.177.0.122+63486 AS 65100 Local: 192.177.0.136+179 AS 65100
+  Group: internal              Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Established  (route reflector client)Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Options: <Preference LocalAddress LogUpDown Cluster Refresh>
+  Options: <MtuDiscovery>
+  Local Address: 192.177.0.136 Holdtime: 90 Preference: 170
+  Number of flaps: 0
+  Peer ID: 192.177.0.122   Local ID: 192.177.0.136     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 1    Peer index: 0    SNMP index: 2     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: disabled, down
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65100)
+  Peer does not support Addpath
+  Table inet.0 Bit: 20000
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              0
+    Received prefixes:            0
+    Accepted prefixes:            0
+    Suppressed due to damping:    0
+    Advertised prefixes:          0
+  Last traffic (seconds): Received 72223 Sent 71955 Checked 72223
+  Input messages:  Total 2661	Updates 1	Refreshes 0	Octets 50607
+  Output messages: Total 2640	Updates 0	Refreshes 0	Octets 50164
+  Output Queue[1]: 0            (inet.0, inet-unicast)
+
+Peer: 192.177.0.137+179 AS 65100 Local: 192.177.0.136+56577 AS 65100
+  Group: internal              Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Established  (route reflector client)Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: Hold Timer Expired Error
+  Options: <Preference LocalAddress LogUpDown Cluster Refresh>
+  Options: <MtuDiscovery>
+  Local Address: 192.177.0.136 Holdtime: 90 Preference: 170
+  Number of flaps: 1
+  Last flap event: HoldTime
+  Error: 'Hold Timer Expired Error' Sent: 1 Recv: 0
+  Peer ID: 192.177.0.137   Local ID: 192.177.0.136     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 1    Peer index: 2    SNMP index: 3     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: disabled, down
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65100)
+  Peer does not support Addpath
+  Table inet.0 Bit: 20000
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              0
+    Received prefixes:            0
+    Accepted prefixes:            0
+    Suppressed due to damping:    0
+    Advertised prefixes:          0
+  Last traffic (seconds): Received 72223 Sent 12403 Checked 72223
+  Input messages:  Total 459	Updates 1	Refreshes 0	Octets 8725
+  Output messages: Total 456	Updates 0	Refreshes 0	Octets 8668
+  Output Queue[1]: 0            (inet.0, inet-unicast)
+
+Peer: 192.178.0.11 AS 65100    Local: 192.177.0.136 AS 65100
+  Group: internal              Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Active       (route reflector client)Flags: <>
+  Last State: Idle          Last Event: Start
+  Last Error: None
+  Options: <Preference LocalAddress LogUpDown Cluster Refresh>
+  Options: <MtuDiscovery>
+  Local Address: 192.177.0.136 Holdtime: 90 Preference: 170
+  Number of flaps: 0
+
+Peer: 192.178.0.12 AS 65100    Local: 192.177.0.136 AS 65100
+  Group: internal              Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Active       (route reflector client)Flags: <>
+  Last State: Idle          Last Event: Start
+  Last Error: None
+  Options: <Preference LocalAddress LogUpDown Cluster Refresh>
+  Options: <MtuDiscovery>
+  Local Address: 192.177.0.136 Holdtime: 90 Preference: 170
+  Number of flaps: 0

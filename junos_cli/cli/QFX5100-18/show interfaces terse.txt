@@ -1,0 +1,50 @@
+
+Interface               Admin Link Proto    Local                 Remote
+gr-0/0/0                up    up
+pfe-0/0/0               up    up
+pfe-0/0/0.16383         up    up   inet    
+                                   inet6   
+pfh-0/0/0               up    up
+pfh-0/0/0.16383         up    up   inet    
+pfh-0/0/0.16384         up    up   inet    
+xe-0/0/0                up    up
+xe-0/0/0.16386          up    up  
+xe-0/0/1                up    up
+xe-0/0/1.16386          up    up  
+xe-0/0/2                up    up
+xe-0/0/2.16386          up    up  
+xe-0/0/3                up    up
+xe-0/0/3.16386          up    up  
+bme0                    up    up
+bme0.0                  up    up   inet     128.0.0.1/2     
+                                            128.0.0.4/2     
+                                            128.0.0.16/2    
+                                            128.0.0.63/2    
+bme1                    up    up
+cbp0                    up    up
+dsc                     up    up
+em0                     up    up
+em0.0                   up    up   eth-switch
+em1                     up    down
+em2                     up    up
+em2.32768               up    up   inet     192.168.1.2/24  
+esi                     up    up
+gre                     up    up
+ipip                    up    up
+irb                     up    up
+jsrv                    up    up
+jsrv.1                  up    up   inet     128.0.0.127/2   
+lo0                     up    up
+lo0.0                   up    up   inet     127.0.0.1           --> 0/0
+                                            192.179.0.212       --> 0/0
+                                   iso      49.0179.0000.0000.0212
+lo0.16385               up    up   inet    
+lsi                     up    up
+mtun                    up    up
+pimd                    up    up
+pime                    up    up
+pip0                    up    up
+tap                     up    up
+vme                     up    up
+vme.0                   up    up   inet     172.30.179.212/24
+vtep                    up    up

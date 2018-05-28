@@ -1,0 +1,72 @@
+---
+ - name: check interfaces
+   hosts: all
+   connection: local
+   gather_facts: no
+   tags: 
+   - audit
+   roles:
+   - Juniper.junos
+
+
+   tasks:
+
+   - name: check if interfaces admin status is up
+     junos_command:
+      provider: "{{ credentials }}"
+      display: 'xml'
+      commands:
+       - "show interfaces terse {{ item.interface }}"
+      waitfor:
+       - "result[0]['rpc-reply']['interface-information']['physical-interface']['admin-status'] eq up"
+      retries: 3
+      interval: 3
+     with_items:
+     - "{{ neighbors }}"
+     when: (neighbors is defined) and (item.interface is defined) and ((ansible_version['major'] == 2 and ansible_version['minor']|int >= 4))
+
+
+   - name: check if interfaces op status is up
+     junos_command:
+      provider: "{{ credentials }}"
+      display: 'xml'
+      commands:
+       - "show interfaces terse {{ item.interface }}"
+      waitfor:
+       - "result[0]['rpc-reply']['interface-information']['physical-interface']['oper-status'] eq up"
+      retries: 3
+      interval: 3
+     with_items:
+     - "{{ neighbors }}"
+     when: (neighbors is defined) and (item.interface is defined) and ((ansible_version['major'] == 2 and ansible_version['minor']|int >= 4))
+
+   - name: check if lldp neighbors are the ones we expect, using xml
+     junos_command:
+      provider: "{{ credentials }}"
+      display: 'xml'
+      commands:
+       - show lldp neighbors interface "{{ item.interface }}"
+      waitfor:
+       - "result[0]['rpc-reply']['lldp-neighbors-information']['lldp-neighbor-information']['lldp-remote-system-name'] == {{ item.name }}"
+      retries: 3
+      interval: 3
+     with_items:
+     - "{{ neighbors }}"
+     when: (neighbors is defined) and (item.name is defined) and (ansible_version['major'] == 2 and ansible_version['minor']|int >= 4)
+
+   - name: check if lldp neighbors are the ones we expect, using json
+     junos_command:
+      provider: "{{ credentials }}"
+      display: 'json'
+      commands:
+       - show lldp neighbors interface "{{ item.interface }}"
+      waitfor:
+       - "result[0]['lldp-neighbors-information'][0]['lldp-neighbor-information'][0]['lldp-remote-system-name'][0]['data'] eq {{ item.name }}"
+      retries: 3
+      interval: 3
+     with_items:
+     - "{{ neighbors }}"
+     when: (neighbors is defined) and (item.name is defined) and (ansible_version['major'] == 2 and ansible_version['minor']|int >= 4)
+
+
+
