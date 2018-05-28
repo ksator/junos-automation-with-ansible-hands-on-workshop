@@ -304,7 +304,7 @@ Audit the physical topology of your network:
 ```
 ansible-playbook junos_command/pb_check_op_states.yml
 ```
-The task ```check if interfaces op status is up``` is failing because the ```waitfor``` argument is not parsing the junos output correcltly.  
+The task ```check if interfaces op status is up``` is failing because the [waitfor](junos_command/pb_check_op_states.yml#L36) argument is not parsing the junos output correcltly.  
 
 ssh to the device and run "show xxx | display xml" to understand how to fix this parsing error. Example:  
 ```
