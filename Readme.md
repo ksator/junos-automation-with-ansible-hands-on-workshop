@@ -120,6 +120,7 @@ ls junos_get_facts/inventory/
 ```
 
 ### Collect junos configuration files in all format (set, json, xml, text) from all junos devices 
+This playbook collects junos configuration files in set/json/text formats from all junos devices 
 ```
 more junos_facts/pb_collect_configuration.yml
 ansible-playbook junos_facts/pb_collect_configuration.yml
@@ -129,6 +130,17 @@ Verify
 ls junos_facts/configuration/
 ls junos_facts/configuration/set/
 ls junos_facts/configuration/text/
+```
+Update the playbook to collect also junos configuration files in xml formats from all junos devices 
+```
+vi junos_facts/pb_collect_configuration.yml
+```
+```
+ansible-playbook junos_facts/pb_collect_configuration.yml
+```
+Verify
+```
+ls junos_facts/configuration/xml
 ```
 
 ### Collect some junos show commands from all junos devices 
